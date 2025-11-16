@@ -1,0 +1,14 @@
+# EE 563 - Mini Project 2: Balloon Detection
+
+#This repository contains the scripts for the "Comparison of Deep Learning Models for Balloon Detection" project.
+
+## Scripts
+
+# `convert_to_coco.py`: Script to convert the original balloon dataset annotations to COCO format.
+# `mask_rncnn_config.py`: Configuration file for training the Mask R-CNN model.
+# `ssd_config.py`: Configuration file for training the SSD model.
+# `test_balloon.py`: Final comparison script that loads both models (best Mask R-CNN and best SSD) and calculates the balloon area percentage for the test images.
+
+## Test Results
+
+#The test images are located in the `work_dirs` folder, as required by the test script.
