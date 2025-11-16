@@ -9,6 +9,4 @@
 # `ssd_config.py`: Configuration file for training the SSD model.
 # `test_balloon.py`: Final comparison script that loads both models (best Mask R-CNN and best SSD) and calculates the balloon area percentage for the test images.
 
-## Test Results
-
-#The test images are located in the `work_dirs` folder, as required by the test script.
+#You can find the images of the test results in the file.
