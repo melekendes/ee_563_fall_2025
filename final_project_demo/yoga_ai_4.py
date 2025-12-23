@@ -11,7 +11,7 @@ GEMINI_API_KEY = "AIzaSyDNLWftdvFg5FXt8bFUhGZuOz7Uciz8qf4"
 
 #video path
 script_dir = os.path.dirname(os.path.abspath(__file__))
-VIDEO_PATH = os.path.join(script_dir, 'Video Project 3.mp4') 
+VIDEO_PATH = os.path.join(script_dir, 'Video Project 3.mp4') #for video, check the README file for the video.
 
 #colors
 BLUE = (255, 127, 0)
@@ -177,4 +177,5 @@ while cap.isOpened():
         break
 
 cap.release()
+
 cv2.destroyAllWindows()
