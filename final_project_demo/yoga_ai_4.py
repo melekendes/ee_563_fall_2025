@@ -11,7 +11,7 @@ GEMINI_API_KEY = "AIzaSyDNLWftdvFg5FXt8bFUhGZuOz7Uciz8qf4"
 
 #video path
 script_dir = os.path.dirname(os.path.abspath(__file__))
-VIDEO_PATH = os.path.join(script_dir, 'Video Project 3.mp4') #for video, check the README file for the video.
+VIDEO_PATH = os.path.join(script_dir, 'Video Project 3.mp4') 
 
 #colors
 BLUE = (255, 127, 0)
@@ -22,8 +22,8 @@ YELLOW = (0, 255, 255) # AI Text Color
 #llm
 try:
     genai.configure(api_key=GEMINI_API_KEY)
-    #model = genai.GenerativeModel('gemini-2.0-flash')
-    model = genai.GenerativeModel('gemini-flash-latest') #In some tests, we reached the API limit, so we had to modify the system.
+    model = genai.GenerativeModel('gemini-2.0-flash')
+    #model = genai.GenerativeModel('gemini-flash-latest') #In some tests, we reached the API limit, so we had to modify the system.
     llm_active = True
     print("API CONNECTED SUCCESSFULLY")
 except Exception as e:
@@ -177,5 +177,4 @@ while cap.isOpened():
         break
 
 cap.release()
-
 cv2.destroyAllWindows()
