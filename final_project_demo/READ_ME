@@ -1,3 +1,5 @@
 #This repository contains final project demo for the EE563 AI Practice. 
 #It is a real-time Yoga AI Coach that detects poses and provides feedback using MediaPipe and Google Gemini API. 
 #For try to demo use this video: Video Project 3: https://drive.google.com/file/d/112FwvJnoUAJlDB2_ttvMitA1SAcfUn3e/view?usp=sharing
+#For try to demo use this video: Video Project 6:https://drive.google.com/file/d/1d8R3J9kDcSfvctiTjOTEH35cL4E2N2Px/view?usp=sharing
+#For try to kagge_train use this: https://www.kaggle.com/code/nnsssadithya/yoga-mediapipe
